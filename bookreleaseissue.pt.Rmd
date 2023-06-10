@@ -1,0 +1,32 @@
+---
+repo-actions: true
+---
+
+# Guia para lançamentos (*releases*) do livro {#bookreleaseissue}
+
+Os editores que estiverem preparando um lançamento do livro podem executar o script `prelease.R` que se encontra no diretório `inst` deste repositório para abrir automaticamente um problema/*issue* do GitHub com pontos de verificação para todos os problemas/objetivos atuais atribuídos ao próximo lançamento, juntamente com a lista de verificação a seguir.
+Antes de executar o script, verifique manualmente os problemas/objetivos atribuídos ao próximo lançamento.
+Isso deve ser executado um mês antes da data de lançamento planejada.
+
+::: {.content-hidden when-format="pdf"}
+
+````markdown
+```{r}
+#| results: 'asis'
+#| echo: false
+#| child: "templates/book-release.pt.md"
+```
+````
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+```{r}
+#| child: "templates/book-release.pt.md"
+
+```
+
+:::
+
+
