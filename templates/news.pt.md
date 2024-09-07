@@ -5,7 +5,7 @@ foobar 0.2.0 (2016-04-01)
 
   * Nova função adicionada `do_things()` para fazer coisas (#5)
 
-### MELHORIAS PEQUENAS
+### PEQUENAS MELHORIAS
 
   * Documentação foi aprimorada para a função `things()` (#4)
 
@@ -13,7 +13,7 @@ foobar 0.2.0 (2016-04-01)
 
   * Correção de um bug de parseamento em `parse()` (#3)
 
-### DEPRECADO E EXTINTO
+### DEPRECIADO E EXTINTO
 
   * `hello_world()` está deprecada agora e será removida em
      uma futura versão, utilize `hello_mars()`
